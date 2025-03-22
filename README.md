@@ -20,7 +20,7 @@ Descargar e instalar Miniconda según el sistema operativo:
 - [Linux](https://docs.conda.io/en/latest/miniconda.html) 
 
 
-### Crear un entorno con los paquetes necesarios:
+### 2) Crear un entorno con los paquetes necesarios:
 
 ```bash
 conda create -n cosmo python=3.10 notebook numpy scipy matplotlib astropy numba -y
@@ -45,7 +45,7 @@ jupyter notebook
 
 
 
-## Instalación:
+## 3) Clonar el repositorio:
 
 Luego de tener el entorno listo, tienen que clonar el repositorio:
 
