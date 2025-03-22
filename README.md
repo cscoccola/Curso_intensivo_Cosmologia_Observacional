@@ -19,6 +19,18 @@ Descarga e instala Miniconda según tu sistema operativo:
 - [Linux](https://docs.conda.io/en/latest/miniconda.html) 
 
 
+
+
+```bash
+conda create -n cosmo python=3.10 notebook numpy scipy matplotlib astropy numba -y
+conda activate cosmo
+conda install "scipy<1.15"
+pip install camb healpy
+pip install pysm3
+```
+
+
+
 2) Crea un Entorno para el Curso
 
 Abre una terminal o el Anaconda Prompt y ejecuta: 
@@ -38,14 +50,16 @@ conda install "scipy<1.15"
 
 3) Instalamos luego, con el comando pip, los paquetes camb y healpy:
 
-pip install camb healpy
+
+
 
 (si el comando pip no está en el sistema, instalarlo con:  conda install pip -y )
 
 
 4) Instalamos el pysm3
 
-pip install pysm3
+
+
 
 
 --------------------------------
