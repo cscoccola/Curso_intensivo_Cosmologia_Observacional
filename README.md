@@ -45,7 +45,7 @@ jupyter notebook
 
 
 
-## 3) Clonar el repositorio:
+### 3) Clonar el repositorio:
 
 Luego de tener el entorno listo, tienen que clonar el repositorio:
 
