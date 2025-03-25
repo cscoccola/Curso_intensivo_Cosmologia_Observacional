@@ -113,7 +113,6 @@ En la carpeta CMB/healpy/
 tutorial_healpy.ipynb es el que hay que mirar más detenidamente. Los otros archivos tienen ejemplos de otras funcionalidades más específicas.
 
 
-
 alpha_channel_example.ipynb muestra cómo utilizar el canal alpha para mostrar una máscara con efecto de transparencia.
 
 newvisufunc_example.ipynb muestra muchas opciones distintas para visualizar los mapas.
@@ -122,6 +121,8 @@ blm_gauss_plot.ipynb muestra cómo hacer una función que represente un beam gau
 
 map_data_to_healpix.ipynb muestra cómo visualizar un mapa genérico usando la partición de Healpix, cuando tienen las coordenadas y el valor del mapa en cada una de esas direcciones, guardados como arrays.
 
+
+Compute_Planck_CMB_temperature_power_spectrum.ipynb calcula el espectro en el caso de tener un beam y una máscara (con limitaciones en lo que puede hacer healpy).
 
 ------
 En esta página hay otro tutorial (jupyter notebook) que carga el espectro del CMB del best fit de Planck, lo usa para crear una realización de los coeficientes a_\ell,m (que guarda en disco) y luego usa para crear mapas a diferentes resoluciones:
