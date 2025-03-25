@@ -1,2 +1,0 @@
-CMB/*.npz filter=lfs diff=lfs merge=lfs -text
-data/*.fits filter=lfs diff=lfs merge=lfs -text
