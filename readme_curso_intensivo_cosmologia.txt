@@ -123,7 +123,10 @@ blm_gauss_plot.ipynb muestra cómo hacer una función que represente un beam gau
 map_data_to_healpix.ipynb muestra cómo visualizar un mapa genérico usando la partición de Healpix, cuando tienen las coordenadas y el valor del mapa en cada una de esas direcciones, guardados como arrays.
 
 
+------
+En esta página hay otro tutorial (jupyter notebook) que carga el espectro del CMB del best fit de Planck, lo usa para crear una realización de los coeficientes a_\ell,m (que guarda en disco) y luego usa para crear mapas a diferentes resoluciones:
 
+https://www.zonca.dev/posts/2020-09-30-planck-spectra-healpy.html
 
 
 
