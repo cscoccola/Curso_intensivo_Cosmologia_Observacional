@@ -1,0 +1,60 @@
+
+1) Activar el entorno:
+
+conda activate cosmo
+
+2) Instalar cobaya:
+
+python -m pip install cobaya --upgrade
+
+python -c "import cobaya; print(cobaya.__version__)"
+
+
+3) Instalar la likelihood y los códigos
+
+cobaya-install cosmo -p /path/to/packages  (path donde instala los codigos y likelihoods)
+
+
+4) En la página de cobaya, sección "basic cosmology runs":
+
+https://cobaya.readthedocs.io/en/latest/cosmo_basic_runs.html
+
+Correr este comando (en la terminal):
+
+cobaya-cosmo-generator
+
+
+esto activa un GUI, con el que se puede hacer el diccionario para la corrida: archivo  .yaml
+
+5) Para correr cobaya:
+
+Así solo buscar el mínimo:
+cobaya-run [your_input_file_name.yaml] --minimize
+
+Así hace las cadenas:
+cobaya-run [your_input_file_name.yaml] 
+
+
+Acá están los valores por defecto del MCMC:
+https://cobaya.readthedocs.io/en/latest/sampler_mcmc.html
+
+
+# Gelman-Rubin R-1 on means
+Rminus1_stop: 0.01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
