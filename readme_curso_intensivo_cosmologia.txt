@@ -129,6 +129,19 @@ En esta página hay otro tutorial (jupyter notebook) que carga el espectro del C
 
 https://www.zonca.dev/posts/2020-09-30-planck-spectra-healpy.html
 
+----
+
+En la carpeta CMB/pysm_notebooks/ hay ejemplos de cómo se utiliza pysm para generar realizaciones de mapas del CMB y contaminantes (polvo, sincrotrón)
+
+----
+
+En el siguiente link pueden ver la imagen gif con la ilustración de cómo se genera polarización lineal en presencia de una anisotropía cuadrupolar en el campo de radiación:
+
+https://docs.google.com/presentation/d/1kyh8UE-5sacmH6QubrN7ya6swYE2ysXA38jFUlUc5Ls/edit?usp=sharing
+
+
+
+
 
 
 
